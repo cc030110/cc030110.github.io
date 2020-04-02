@@ -4,17 +4,17 @@
  <meta charset="utf-8"/>
  <meta name="viewport" content="width=device-width,initial-scale=1"/>
  <script>
- function myFunction(){
-  document.getElementById("user_id_1").innerHTML="무궁화 삼천리 화려강산";
+ function onclick1(){
+  document.getElementById("id_1").innerHTML="무궁화 삼천리 화려강산";
  }
  </script>
  <meta name="description"content="HTML5test페이지"/>
  <meta name="keywords"content="IoT,smart"/>
  <title>애국가</title>
  </head>
- <body>
+ <body onload="onclick1()"/>
   <h1> 애국가 </h1>
-  <p id="user_id_1"> 1절 </p>
-  <p id="user_id_2"> 2절 </p>
-  <script>myFunction();</script>
-</body></html>
+  <p> 클릭 </p>
+  <p id="id_1"> 메세지표시 </p>
+</body>
+</html>
