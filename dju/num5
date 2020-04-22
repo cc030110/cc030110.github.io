@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>공학실험관</title>
+</head>
+</body>
+<h2>이 건물은 <mark>공학실험관</mark>입니다.</h2>
+<img src="num5.jpg" alt="공학실험관"/><br/>
+<p>공학실험관은 공과대 학생들의 전용 실습실로 이용되고 있습니다.</p>
+</body> 
+</html>
