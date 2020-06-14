@@ -1,7 +1,8 @@
 * {box-sizing:border-box; padding:0; margin:0;}
 .row::after {content:""; clear:both; display:table;}
 [class*="col-"] {float:left; padding:10px;}
-.header {color:white; height:1000px;} 
+.header {color:white; padding:10px;}
+.header img {width:auto; height:200px;}
 .footer {background-color:gray; color:white; padding:10px;}
 .menu ul, .banner ul {list-style-type:none;}
 .menu li {background-color:pink; color:white; padding:10px; margin-bottom:5px; box-shadow:0 1px 2px gray;}
